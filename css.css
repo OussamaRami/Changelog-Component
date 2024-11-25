@@ -1,0 +1,77 @@
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.changelog{
+    text-align: center;
+    font-family: Sour Gummy;
+    color: rgb(19, 19, 19);
+    transition: 0.5s;
+}
+
+.changelog:hover{
+    color: white;
+}
+
+.changelog h1{
+    font-size: 50px;
+}
+
+.changelog p{
+    font-size: 30px;
+}
+
+.date-1{
+    border: solid 2px;
+    transition: 0.5s;
+}
+
+.date-1:hover{
+    background-color: rgb(81, 200, 255);
+    color: black;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+
+.date-2{
+    border: solid 2px;
+    display: block;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.date-2:hover{
+    background-color: rgb(81, 200, 255);
+    color: black;
+}
+
+
+.last {
+    margin-top: 50px;
+    
+}
+
+
+.ending{
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.ending:hover{
+    background-color: white;
+    color: black;
+}
+

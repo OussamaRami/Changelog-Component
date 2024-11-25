@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+main{
+    text-align: center;
+    font-family: Sour Gummy;
+    color: white;
+    margin-bottom: 300px;
+}
